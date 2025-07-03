@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	25.04.2
+%define		kdeappsver	25.04.3
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		kruler
 Summary:	kruler
 Name:		ka6-%{kaname}
-Version:	25.04.2
+Version:	25.04.3
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	02d41721f97ec8c596eefc4b3e3dcc0a
+# Source0-md5:	b6b46d7921223cdb133bb7563f97aee3
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Gui-devel >= 5.11.1
