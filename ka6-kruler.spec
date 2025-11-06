@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	25.08.2
+%define		kdeappsver	25.08.3
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		kruler
 Summary:	kruler
 Name:		ka6-%{kaname}
-Version:	25.08.2
-Release:	2
+Version:	25.08.3
+Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	37d1f137edcbf15495e6cd8718397fba
+# Source0-md5:	573708eafe1a156d3baaa15e4fd3e20f
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Gui-devel >= 5.11.1
@@ -43,8 +43,8 @@ count to your cursor. To change the length of the ruler just drag the
 sides.
 
 %description -l pl.UTF-8
-KRuler wyświetla na ekranie linijkę mierzącą liczbę pikseli. Ustaw 0
-w punkcie startowym (po prostu przeciągnij ją) i odczytaj precyzyjną
+KRuler wyświetla na ekranie linijkę mierzącą liczbę pikseli. Ustaw 0 w
+punkcie startowym (po prostu przeciągnij ją) i odczytaj precyzyjną
 liczbę pikseli do kursora. Aby zmienic długość linijki, przeciągnij
 jej boki.
 
